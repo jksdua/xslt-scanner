@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XSLT Scanner</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <link rel="stylesheet" type="text/css" href="./bower_components/vex/css/vex.css">
+    <link rel="stylesheet" type="text/css" href="./bower_components/vex/css/vex-theme-wireframe.css">
+  </head>
+  <body>
+    <table>
+      <tr class="editor-title">
+        <th>XSLT Transform</th>
+        <th>Findings</th>
+      </tr>
+      <tr>
+        <td class="editor-code"><div id="editor"></div></td>
+        <td class="editor-output">
+          <div class="waiting">
+            <h3>Instructions</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur excepturi soluta molestias, reprehenderit. Distinctio ab tempore, cumque dolorum dicta non ipsam recusandae fugiat, illo incidunt, voluptatem dolores optio excepturi ipsa.</p>
+            <h3>Security Notice</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati unde, odit hic debitis dolor? Incidunt, accusantium quibusdam? Repudiandae labore non fugit temporibus ratione! Nulla fugit pariatur repudiandae, quaerat, tempora sint!</p>
+          </div>
+          <div class="results hidden"></div>
+        </td>
+      </tr>
+    </table>
+
+    <script id="intro" type="text/template">
+      <h1>XSLT Scanner</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem vitae doloribus porro deserunt dolor fugiat accusamus minus sunt vel odio, ad, ab tempore magnam repellendus impedit quisquam incidunt aspernatur. Animi!
+      </p>
+    </script>
+
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/vex/js/vex.combined.min.js"></script>
+    <script src="./js/intro.js"></script>
+
+    <script src="./lib/ace/ace.js" type="text/javascript"></script>
+    <script src="./lib/ace/mode-xml.js" type="text/javascript"></script>
+    <script src="./lib/ace/ext-searchbox.js" type="text/javascript"></script>
+    <script src="./bower_components/jquery-debounce/jquery.debounce.js"></script>
+    <script src="./js/scanner.js"></script>
+  </body>
+</html>

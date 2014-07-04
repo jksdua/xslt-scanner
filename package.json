@@ -1,0 +1,31 @@
+{
+  "name": "xslt-scanner",
+  "version": "0.0.1",
+  "description": "XSLT Security Scanner",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node --harmony ./src/server",
+    "test": "./node_modules/.bin/mocha --bail --harmony --reporter spec ./test/*.js ./test/**/*.js"
+  },
+  "engines": {
+    "node": ">=0.11.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convict": "^0.4.2",
+    "koa": "^0.8.1",
+    "koa-framework": "^1.0.2",
+    "koa-static-cache": "^1.0.10",
+    "lodash": "^2.4.1",
+    "require-dir": "^0.1.0",
+    "winston": "^0.7.3",
+    "xmldom": "^0.1.19",
+    "xpath.js": "0.0.4"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "request": "^2.36.0"
+  }
+}
